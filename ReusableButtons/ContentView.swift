@@ -10,7 +10,23 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        NavigationView{
+            VStack{
+                // Primary button
+                Button(action:{
+                    print("This is primary button view")
+                }){
+                    Text("Primary Button")
+                }
+                .buttonStyle(PrimaryStyle())
+                .padding()
+                NavigationLink(destination: TextFieldValidator()) {
+                        Text("Navigation Button")
+                }
+
+            }
+        .navigationBarTitle(Text("Reusable Buttons"))
+        }
     }
 }
 

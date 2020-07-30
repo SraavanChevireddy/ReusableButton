@@ -14,6 +14,9 @@
 		3C9C6C3524D33D5F00A93C1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C9C6C3424D33D5F00A93C1B /* Assets.xcassets */; };
 		3C9C6C3824D33D5F00A93C1B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C9C6C3724D33D5F00A93C1B /* Preview Assets.xcassets */; };
 		3C9C6C3B24D33D5F00A93C1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C9C6C3924D33D5F00A93C1B /* LaunchScreen.storyboard */; };
+		3C9C6C4324D33D7600A93C1B /* ReusbaleButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9C6C4224D33D7600A93C1B /* ReusbaleButtons.swift */; };
+		3C9C6C4524D3409800A93C1B /* TextFieldValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9C6C4424D3409800A93C1B /* TextFieldValidator.swift */; };
+		3C9C6C4724D342C600A93C1B /* AutoValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9C6C4624D342C600A93C1B /* AutoValidator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		3C9C6C3724D33D5F00A93C1B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3C9C6C3A24D33D5F00A93C1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C9C6C3C24D33D5F00A93C1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C9C6C4224D33D7600A93C1B /* ReusbaleButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusbaleButtons.swift; sourceTree = "<group>"; };
+		3C9C6C4424D3409800A93C1B /* TextFieldValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldValidator.swift; sourceTree = "<group>"; };
+		3C9C6C4624D342C600A93C1B /* AutoValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoValidator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,9 @@
 				3C9C6C2B24D33D5A00A93C1B /* AppDelegate.swift */,
 				3C9C6C2D24D33D5A00A93C1B /* SceneDelegate.swift */,
 				3C9C6C3224D33D5A00A93C1B /* ContentView.swift */,
+				3C9C6C4624D342C600A93C1B /* AutoValidator.swift */,
+				3C9C6C4424D3409800A93C1B /* TextFieldValidator.swift */,
+				3C9C6C4224D33D7600A93C1B /* ReusbaleButtons.swift */,
 				3C9C6C3424D33D5F00A93C1B /* Assets.xcassets */,
 				3C9C6C3924D33D5F00A93C1B /* LaunchScreen.storyboard */,
 				3C9C6C3C24D33D5F00A93C1B /* Info.plist */,
@@ -149,9 +158,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C9C6C4324D33D7600A93C1B /* ReusbaleButtons.swift in Sources */,
 				3C9C6C3124D33D5A00A93C1B /* ReusableButtons.xcdatamodeld in Sources */,
+				3C9C6C4724D342C600A93C1B /* AutoValidator.swift in Sources */,
 				3C9C6C2C24D33D5A00A93C1B /* AppDelegate.swift in Sources */,
 				3C9C6C3324D33D5A00A93C1B /* ContentView.swift in Sources */,
+				3C9C6C4524D3409800A93C1B /* TextFieldValidator.swift in Sources */,
 				3C9C6C2E24D33D5A00A93C1B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
